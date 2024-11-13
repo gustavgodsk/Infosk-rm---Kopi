@@ -1,0 +1,9 @@
+@import './fonts.css';
+
+:root {
+    --font-primary: '@fonts', Arial, sans-serif;
+}
+
+body {
+    font-family: var(--font-primary);
+}

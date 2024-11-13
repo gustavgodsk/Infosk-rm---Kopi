@@ -1,0 +1,23 @@
+/* @font-face {
+    font-family: '@fonts';
+    src: url('lib/static/fonts/ARIAL.TTF') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+} */
+
+@font-face {
+    font-family: '@fonts';
+    src: url('lib/static/fonts/ARIAL.TTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* @font-face {
+    font-family: '@fonts';
+    src: url('lib/static/fonts/ARIAL.TTF') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}  */
