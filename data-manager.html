@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="da"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area Data Manager</title>
+    <link rel="stylesheet" href="lib/styles/data-manager.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rediger indhold til infoskærmen</h1>
+        <a  href="lib/Guide til at redigere indhold.pdf" target="_blank" class="guide-link">
+            <p>Hjælp</p>
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="16" height="16" viewBox="0 0 30 30">
+                <path d="M 25.980469 2.9902344 A 1.0001 1.0001 0 0 0 25.869141 3 L 20 3 A 1.0001 1.0001 0 1 0 20 5 L 23.585938 5 L 13.292969 15.292969 A 1.0001 1.0001 0 1 0 14.707031 16.707031 L 25 6.4140625 L 25 10 A 1.0001 1.0001 0 1 0 27 10 L 27 4.1269531 A 1.0001 1.0001 0 0 0 25.980469 2.9902344 z M 6 7 C 4.9069372 7 4 7.9069372 4 9 L 4 24 C 4 25.093063 4.9069372 26 6 26 L 21 26 C 22.093063 26 23 25.093063 23 24 L 23 14 L 23 11.421875 L 21 13.421875 L 21 16 L 21 24 L 6 24 L 6 9 L 14 9 L 16 9 L 16.578125 9 L 18.578125 7 L 16 7 L 14 7 L 6 7 z"></path>
+            </svg>
+        </a>
+        <div class="actions">
+            <button onclick="addNewArea()">Tilføj ny side</button>
+            <div class="actions-button-div">
+                <button onclick="downloadBackup()" class="grey-button">Download backup</button>
+                <button onclick="exportAllAreas()" class="green-button">Gem alle ændringer</button>
+            </div>
+
+        </div>
+    
+        <div id="areasList" class="areas-list">
+        </div>
+    </div>
+
+    <!-- Area Modal -->
+    <div id="areaModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeAreaModal()">&times;</span>
+            <h2>Rediger side</h2>
+            <div class="form-group">
+                <label for="editAreaName">Navn</label>
+                <input type="text" id="editAreaName">
+            </div>
+            <div class="form-group">
+                <label>Oversigtskort</label>
+                <div class="image-drop-zone" id="areaMapDropZone">
+                    <img id="areaMapPreview" src="" alt="">
+                    <div class="drop-instructions">
+                        <p>Træk oversigtskort her</p>
+                        <p class="current-file" id="currentMapFile"></p>
+                    </div>
+                </div>
+            </div>
+            <button onclick="saveAreaChanges()" class="green-button">Gem ændringer</button>
+        </div>
+    </div>
+
+    <!-- Modal for editing building -->
+    <div id="buildingModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeBuildingModal()">&times;</span>
+            
+            <h2>Rediger Bygning</h2>
+            
+            <div class="form-group">
+                <label>Navn</label>
+                <input type="text" id="buildingName" placeholder="Navn på bygning">
+            </div>
+            
+            <div class="form-group">
+                <label>Beskrivelse</label>
+                <textarea id="buildingDescription" placeholder="Beskrivelsen vises på forsiden..."></textarea>
+            </div>
+    
+            <h3>Fakta</h3>
+            <div id="factsList" class="facts-list">
+                <div class="form-group">
+                    <label>Igangsat</label>
+                    <input type="text" id="buildingStarted" placeholder="Hvornår startede byggeriet?">
+                </div>
+                
+                <div class="form-group">
+                    <label>Færdiggjort</label>
+                    <input type="text" id="buildingCompleted" placeholder="Hvornår stod bygningen færdig?">
+                </div>
+                
+                <div class="form-group">
+                    <label>Boliger</label>
+                    <input type="text" id="buildingHousing" placeholder="Hvor mange boliger har bygningen?">
+                </div>
+                
+                <div class="form-group">
+                    <label>Erhverv</label>
+                    <input type="text" id="buildingCommercial" placeholder="Hvilke erhvervsmål har bygningen?">
+                </div>
+                
+                <div class="form-group">
+                    <label>Typologi</label>
+                    <input type="text" id="buildingType" placeholder="Bygningens typologi, fx almen, senior, studie osv...">
+                </div>
+                
+                <div class="form-group">
+                    <label>Etager</label>
+                    <input type="text" id="buildingFloors" placeholder="Hvor mange etager?">
+                </div>
+                
+                <div class="form-group">
+                    <label>Udvikler</label>
+                    <input type="text" id="buildingDeveloper" placeholder="Hvem har udviklet bygningen?">
+                </div>
+                
+                <div class="form-group">
+                    <label>Arkitekt</label>
+                    <input type="text" id="buildingArchitect" placeholder="Hvem er arkitekten?">
+                </div>
+            </div>
+    
+            <h3>Ekstra Information</h3>
+            <div id="extraInfoContainer">
+                <div id="extraInfoList"></div>
+                <button onclick="addExtraInfoField()">Tilføj Info</button>
+            </div>
+    
+            <h3 style="margin-top: 20px;">Position på oversigtskortet</h3>
+            <!-- Map preview will be inserted here by JavaScript -->
+    
+
+    
+            <h3>Billeder</h3>
+            <div class="building-images">
+                <div id="buildingImagesDropZone" class="image-drop-zone">
+                    <div id="buildingImagesPreview" class="images-preview"></div>
+                    <div class="drop-instructions">Træk billeder her</div>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 20px;">Placering af infocirkel og faktaboks på primær-billedet</h3>
+            <div class="form-group flexrow">
+                <label>Infocirkel</label>
+                <select id="infoCirkelPlacering">
+                    <option value="leftTop">Venstre top</option>
+                    <option value="leftBottom">Venstre bund</option>
+                    <option value="rightTop">Højre top</option>
+                    <option value="rightBottom">Højre bund</option>
+                </select>
+            </div>
+    
+            <div class="form-group flexrow">
+                <label>Faktaboks</label>
+                <select id="faktaboksPlacering">
+                    <option value="leftTop">Venstre top</option>
+                    <option value="leftBottom">Venstre bund</option>
+                    <option value="rightTop">Højre top</option>
+                    <option value="rightBottom">Højre bund</option>
+                </select>
+            </div>
+    
+            <button onclick="saveBuildingChanges()" class="green-button">Gem ændringer</button>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="lib/scripts/data-manager.js"></script>
+</body>
+</html>

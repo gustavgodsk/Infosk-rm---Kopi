@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+<meta charset="UTF-8">
+
+<head>
+    <link rel="stylesheet" href="lib/styles/styles.css">
+</head>
+<body>
+
+    <button id="fullscreen-toggle-open" class="fullscreen-toggle" onclick="toggleFullscreen()"></button>
+    <button id="fullscreen-toggle-exit" class="fullscreen-toggle" onclick="toggleFullscreen()"></button>
+
+    <!-- <img src="./lib/static/aarhusoe-skyline-removebg.png" alt="" class="backgroundImage">
+    <img src="./lib/static/aarhusoe-skyline-removebg.png" alt="" class="backgroundImage skyline-removebg"> -->
+
+    <div class="menu">
+        <div class="menu-title">
+            <img src="lib/static/logo.png" alt="">
+            <div class="title-circle" >
+                <h1>Bliv klogere på</h1>
+                <h1><span>udviklingen</span></h1>
+                <h1>af Aarhus</h1>
+            </div>
+        </div>
+        <div class="menu-button-container">
+            <!-- knapperne bliver tilføjet for hvert område i javascript  -->
+        </div>
+    </div>
+    <div id="main">
+        <button id="go-back-button" onclick="goBack()">
+            <img src="lib/static/arrow.svg" alt="">
+        </button>
+        <div class="triple-column-container">
+            <div class="sidebar venstre">
+
+            </div>
+            <div class="oversigtskort-container">
+                <img id="oversigtskort" src="" alt="">
+            </div>
+            <div class="sidebar højre">
+    
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- overlay modal -->
+    <div id="overlay" class="overlay">
+        <div class="modal">
+            <div class="carousel-container">
+
+            </div>
+            <div class="modal-id"></div>
+            <button class="luk-modal-knap">&times;</button>
+            <div class="modal-faktaboks">
+                <ul class="faktaboks-liste">
+
+                </ul>
+            </div>
+            <div class="modal-circle">
+                <h1 class="modal-titel">Titel</h1>
+                <div class="info">
+                    <ul class="info-liste">
+    
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    
+    
+    <!-- kan ikke bruge script type=module pga sikkerhed, da import/export -->
+    <!-- ikke fungerer uden live server.  -->
+
+    <!-- window.appData bruges for at undgå nødvendigheden af live server -->
+    <!-- (så html-filen virker lokalt på alle computere uden server) -->
+       
+
+    <!-- indeholder alt data -->
+    <script src="data.js"></script>
+
+    <!-- indeholder alt script -->
+    <script src="lib/scripts/script.js"></script>
+
+</body>
