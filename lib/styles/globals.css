@@ -1,7 +1,8 @@
 @import './fonts.css';
 
 :root {
-    --font-primary: '@fonts', Arial, sans-serif;
+    /* brug @fonts, hvis Arial ikke er downloadet på enheden */
+    --font-primary: Arial, '@fonts',sans-serif; 
 }
 
 body {

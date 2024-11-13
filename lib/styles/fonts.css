@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: '@fonts';
-    src: url('lib/static/fonts/ARIAL.TTF') format('opentype');
+    src: url('/lib/static/fonts/ARIAL.TTF') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;

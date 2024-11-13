@@ -389,6 +389,105 @@ window.areas = [
         "faktaboksPlacering": "leftBottom",
         "x": "50%",
         "y": "50%"
+      },
+      {
+        "id": 1731506610500,
+        "navn": "4",
+        "beskrivelse": "",
+        "billeder": {
+          "primary": "2015_dronefoto_ASH (11).jpg",
+          "all": [
+            "2015_dronefoto_ASH (11).jpg"
+          ],
+          "metadata": {
+            "2015_dronefoto_ASH (11).jpg": {
+              "description": "",
+              "author": "",
+              "year": ""
+            }
+          }
+        },
+        "faktaboks": {
+          "igangsat": "",
+          "færdigt": "",
+          "boliger": "",
+          "erhvervsareal": "",
+          "typologi": "",
+          "etager": "",
+          "bygherre": "",
+          "arkitekt": ""
+        },
+        "ekstraInfo": [],
+        "infoCirkelPlacering": "rightTop",
+        "faktaboksPlacering": "leftBottom",
+        "x": "50%",
+        "y": "50%"
+      },
+      {
+        "id": 1731506612012,
+        "navn": "5",
+        "beskrivelse": "",
+        "billeder": {
+          "primary": "2015_dronefoto_ASH (16).jpg",
+          "all": [
+            "2015_dronefoto_ASH (16).jpg"
+          ],
+          "metadata": {
+            "2015_dronefoto_ASH (16).jpg": {
+              "description": "",
+              "author": "",
+              "year": ""
+            }
+          }
+        },
+        "faktaboks": {
+          "igangsat": "",
+          "færdigt": "",
+          "boliger": "",
+          "erhvervsareal": "",
+          "typologi": "",
+          "etager": "",
+          "bygherre": "",
+          "arkitekt": ""
+        },
+        "ekstraInfo": [],
+        "infoCirkelPlacering": "rightTop",
+        "faktaboksPlacering": "leftBottom",
+        "x": "50%",
+        "y": "50%"
+      },
+      {
+        "id": 1731507167178,
+        "navn": "6",
+        "beskrivelse": "",
+        "billeder": {
+          "primary": "2015_dronefoto_ASH (7).jpg",
+          "all": [
+            "2015_dronefoto_ASH (7).jpg"
+          ],
+          "metadata": {
+            "2015_dronefoto_ASH (7).jpg": {
+              "description": "",
+              "author": "",
+              "year": ""
+            }
+          }
+        },
+        "faktaboks": {
+          "igangsat": "",
+          "færdigt": "",
+          "boliger": "",
+          "erhvervsareal": "",
+          "typologi": "",
+          "etager": "",
+          "bygherre": "",
+          "arkitekt": ""
+        },
+        "ekstraInfo": [],
+        "infoCirkelPlacering": "rightTop",
+        "faktaboksPlacering": "leftBottom",
+        "x": "50%",
+        "y": "50%"
       }
     ],
     "primaryColor": "#8b0000",
