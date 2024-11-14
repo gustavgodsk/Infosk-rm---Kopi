@@ -587,6 +587,7 @@ input[type="file"] {
 
 .map-position-container {
     position: relative;
+    width: 100%;
     border: 2px solid #ddd;
     border-radius: 4px;
     overflow: hidden;
@@ -598,6 +599,8 @@ input[type="file"] {
     width: 100%;
     height: auto;
     display: block;
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 .position-dot {
@@ -609,11 +612,8 @@ input[type="file"] {
     border-radius: 50%;
     cursor: move;
     transform: translate(-50%, -50%);
-    transition: box-shadow 0.2s;
-}
-
-.position-dot:hover {
-    box-shadow: 0 0 0 4px rgba(255, 0, 0, 0.3);
+    z-index: 1;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
 }
 
 .position-inputs {
