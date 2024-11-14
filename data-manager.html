@@ -41,6 +41,17 @@
                 <label>Primær farve</label>
                 <input type="color" id="rootPrimaryColor">
             </div>
+            <div class="form-group">
+                <label>Baggrundsbillede</label>
+                <div class="image-drop-zone" id="rootBackgroundDropZone">
+                    <img id="rootBackgroundPreview" src="" alt="" style="display: none;">
+                    <div class="drop-instructions">
+                        <p>Træk baggrundsbillede hertil</p>
+                        <p class="current-file" id="currentRootBackgroundFile"></p>
+                    </div>
+                </div>
+            </div>
+            
             <button onclick="saveRootChanges()" class="green-button">Gem ændringer</button>
         </div>
     </div>
