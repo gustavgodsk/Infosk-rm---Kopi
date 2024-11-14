@@ -6,7 +6,7 @@ window.roots = [
     "areas": [
       {
         "areaName": "Pier 4",
-        "oversigtskort": "",
+        "oversigtskort": "Oversigtskort.jpg",
         "elementer": [
           {
             "id": 1731580143381,
@@ -50,14 +50,70 @@ window.roots = [
             "ekstraInfo": [],
             "infoCirkelPlacering": "rightTop",
             "faktaboksPlacering": "leftBottom",
-            "x": "50%",
-            "y": "50%"
+            "x": "26.5%",
+            "y": "27.8%"
+          },
+          {
+            "id": 1731583607478,
+            "navn": "",
+            "beskrivelse": "",
+            "billeder": {
+              "primary": "DorteMandrup_Aarhus_Strata_v1_Copyright by KVANT-1.jpg",
+              "all": [
+                "DorteMandrup_Aarhus_Strata_v1_Copyright by KVANT-1.jpg",
+                "5.jpg"
+              ],
+              "metadata": {}
+            },
+            "faktaboks": {
+              "igangsat": "",
+              "færdigt": "",
+              "boliger": "",
+              "erhvervsareal": "",
+              "typologi": "",
+              "etager": "",
+              "bygherre": "",
+              "arkitekt": ""
+            },
+            "ekstraInfo": [],
+            "infoCirkelPlacering": "rightTop",
+            "faktaboksPlacering": "leftBottom",
+            "x": "23.7%",
+            "y": "80.5%"
+          },
+          {
+            "id": 1731583655811,
+            "navn": "",
+            "beskrivelse": "",
+            "billeder": {
+              "primary": "13.jpg",
+              "all": [
+                "13.jpg"
+              ],
+              "metadata": {}
+            },
+            "faktaboks": {
+              "igangsat": "",
+              "færdigt": "",
+              "boliger": "",
+              "erhvervsareal": "",
+              "typologi": "",
+              "etager": "",
+              "bygherre": "",
+              "arkitekt": ""
+            },
+            "ekstraInfo": [],
+            "infoCirkelPlacering": "rightTop",
+            "faktaboksPlacering": "leftBottom",
+            "x": "39.3%",
+            "y": "75.2%"
           }
         ],
         "primaryColor": "#004050",
         "primaryColorAlpha": "rgba(0, 64, 80, 0.4)"
       }
-    ]
+    ],
+    "backgroundImage": "baggrundbillede.jpg"
   },
   {
     "rootName": "Amtssygehuset",
