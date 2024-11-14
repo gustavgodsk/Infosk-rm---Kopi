@@ -16,15 +16,32 @@
             </svg>
         </a>
         <div class="actions">
-            <button onclick="addNewArea()">Tilføj ny side</button>
+            <button onclick="addNewRoot()">Tilføj ny rod</button>
             <div class="actions-button-div">
                 <button onclick="downloadBackup()" class="grey-button">Download backup</button>
-                <button onclick="exportAllAreas()" class="green-button">Gem alle ændringer</button>
+                <button onclick="exportAllRoots()" class="green-button">Gem alle ændringer</button>
             </div>
 
         </div>
     
-        <div id="areasList" class="areas-list">
+        <div id="rootsList" class="roots-list">
+        </div>
+    </div>
+
+    <!-- Root Modal -->
+    <div id="rootModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeRootModal()">&times;</span>
+            <h2>Rediger rod</h2>
+            <div class="form-group">
+                <label for="editRootName">Navn</label>
+                <input type="text" id="editRootName">
+            </div>
+            <div class="form-group">
+                <label>Primær farve</label>
+                <input type="color" id="rootPrimaryColor">
+            </div>
+            <button onclick="saveRootChanges()" class="green-button">Gem ændringer</button>
         </div>
     </div>
 
