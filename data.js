@@ -45,7 +45,8 @@ window.roots = [
               "typologi": "",
               "etager": "",
               "bygherre": "",
-              "arkitekt": ""
+              "arkitekt": "",
+              "parkering": ""
             },
             "ekstraInfo": [],
             "infoCirkelPlacering": "rightTop",
@@ -73,7 +74,8 @@ window.roots = [
               "typologi": "",
               "etager": "",
               "bygherre": "",
-              "arkitekt": ""
+              "arkitekt": "",
+              "parkering": ""
             },
             "ekstraInfo": [],
             "infoCirkelPlacering": "rightTop",
@@ -100,7 +102,8 @@ window.roots = [
               "typologi": "",
               "etager": "",
               "bygherre": "",
-              "arkitekt": ""
+              "arkitekt": "",
+              "parkering": ""
             },
             "ekstraInfo": [],
             "infoCirkelPlacering": "rightTop",
