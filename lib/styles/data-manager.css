@@ -1351,3 +1351,48 @@ input[type="file"] {
 .building-card.drag-over-bottom::after {
     bottom: -1px;
 }
+
+/* Add these new styles */
+.accordion-content {
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.accordion-content.expanded {
+    display: block;
+}
+
+.root-header, .area-header {
+    cursor: pointer;
+    user-select: none;
+}
+
+.root-header:hover, .area-header:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.accordion-icon {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #666;
+    transition: transform 0.3s ease;
+}
+
+/* Prevent accordion toggle when clicking buttons */
+.root-actions, .area-actions {
+    pointer-events: auto;
+}
+
+.root-actions *, .area-actions * {
+    pointer-events: auto;
+}
+
+/* Make sure the header click doesn't trigger when clicking actions */
+.root-header, .area-header {
+    position: relative;
+}
+
+.root-actions, .area-actions {
+    position: relative;
+    z-index: 1;
+}
