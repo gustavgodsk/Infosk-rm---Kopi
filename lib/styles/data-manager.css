@@ -1396,3 +1396,21 @@ input[type="file"] {
     position: relative;
     z-index: 1;
 }
+
+.empty-state {
+    text-align: center;
+    padding: 40px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.empty-state h3 {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.empty-state p {
+    color: #888;
+    margin: 0;
+}
