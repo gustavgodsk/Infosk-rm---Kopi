@@ -20,7 +20,7 @@ html, body {
     background-image: url("../static/aarhusoe-skyline.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     padding: 50px;
     box-sizing: border-box;
 }
@@ -45,6 +45,7 @@ html, body {
     font-size: large;
     color: white;
     z-index: 0;
+    
 
 }
 
@@ -507,7 +508,7 @@ ul {
     background-color: transparent;
     top: 0;
     border: none;
-    z-index: 20;   
+    z-index: 1000;   
     cursor: pointer; 
     border: 1px solid transparent;
     transition: all 100ms;

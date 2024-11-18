@@ -1,8 +1,8 @@
 window.roots = [
   {
     "rootName": "Aarhus Ø",
-    "primaryColor": "#004050",
-    "primaryColorAlpha": "rgba(0, 64, 80, 0.4)",
+    "primaryColor": "#29bce0",
+    "primaryColorAlpha": "rgba(41, 188, 224, 0.4)",
     "areas": [
       {
         "areaName": "Pier 4",
@@ -110,6 +110,32 @@ window.roots = [
             "faktaboksPlacering": "leftBottom",
             "x": "39.3%",
             "y": "75.2%"
+          },
+          {
+            "id": 1731922524292,
+            "navn": "",
+            "beskrivelse": "",
+            "billeder": {
+              "primary": null,
+              "all": [],
+              "metadata": {}
+            },
+            "faktaboks": {
+              "igangsat": "",
+              "færdigt": "",
+              "boliger": "",
+              "erhvervsareal": "",
+              "typologi": "",
+              "etager": "",
+              "bygherre": "",
+              "arkitekt": "",
+              "parkering": ""
+            },
+            "ekstraInfo": [],
+            "infoCirkelPlacering": "leftTop",
+            "faktaboksPlacering": "rightBottom",
+            "x": "50%",
+            "y": "50%"
           }
         ],
         "primaryColor": "#004050",
@@ -120,8 +146,8 @@ window.roots = [
   },
   {
     "rootName": "Amtssygehuset",
-    "primaryColor": "#004050",
-    "primaryColorAlpha": "rgba(0, 64, 80, 0.4)",
+    "primaryColor": "#ce1c52",
+    "primaryColorAlpha": "rgba(206, 28, 82, 0.4)",
     "areas": [
       {
         "areaName": "Oversigt",
