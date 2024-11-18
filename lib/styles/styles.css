@@ -644,3 +644,16 @@ ul {
     margin: 20px;
     padding: 50px;
 }
+
+.ekstra-info-XD {
+    display: flex;
+    width: 100%;
+}
+
+.ekstra-info-XD textarea {
+    width: 10% !important;
+}
+
+.ekstra-info-XD button {
+    width: 10%;
+}

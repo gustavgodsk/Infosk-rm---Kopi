@@ -48,16 +48,7 @@ window.roots = [
               "arkitekt": "",
               "parkering": "sdfg"
             },
-            "ekstraInfo": [
-              {
-                "label": "Label",
-                "value": "ekstra info"
-              },
-              {
-                "label": "sefsefsefe",
-                "value": "ekstra info2"
-              }
-            ],
+            "ekstraInfo": [],
             "infoCirkelPlacering": "rightTop",
             "faktaboksPlacering": "leftBottom",
             "x": "26.5%",
