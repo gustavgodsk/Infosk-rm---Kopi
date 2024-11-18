@@ -38,15 +38,15 @@ window.roots = [
               }
             },
             "faktaboks": {
-              "igangsat": "",
-              "færdigt": "",
-              "boliger": "",
-              "erhvervsareal": "",
-              "typologi": "",
+              "igangsat": "asdfg",
+              "færdigt": "asdf",
+              "boliger": "sdf",
+              "erhvervsareal": "sdfg",
+              "typologi": "sdfg",
               "etager": "",
               "bygherre": "",
               "arkitekt": "",
-              "parkering": ""
+              "parkering": "sdfg"
             },
             "ekstraInfo": [],
             "infoCirkelPlacering": "rightTop",
