@@ -1413,3 +1413,37 @@ input[type="file"] {
     color: #888;
     margin: 0;
 }
+
+
+.ekstra-info-XD {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.ekstra-info-XD input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.ekstra-info-XD .remove-field {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+    min-width: 36px;
+}
+
+.ekstra-info-XD .remove-field:hover {
+    background-color: #ff0000;
+}

@@ -48,7 +48,14 @@ window.roots = [
               "arkitekt": "",
               "parkering": "sdfg"
             },
-            "ekstraInfo": [],
+            "ekstraInfo": [
+              "11111111111111",
+              "2222222222222",
+              "233333333333",
+              "33333333333",
+              "444444444444444",
+              "55"
+            ],
             "infoCirkelPlacering": "rightTop",
             "faktaboksPlacering": "leftBottom",
             "x": "26.5%",
@@ -110,32 +117,6 @@ window.roots = [
             "faktaboksPlacering": "leftBottom",
             "x": "39.3%",
             "y": "75.2%"
-          },
-          {
-            "id": 1731922524292,
-            "navn": "",
-            "beskrivelse": "",
-            "billeder": {
-              "primary": null,
-              "all": [],
-              "metadata": {}
-            },
-            "faktaboks": {
-              "igangsat": "",
-              "færdigt": "",
-              "boliger": "",
-              "erhvervsareal": "",
-              "typologi": "",
-              "etager": "",
-              "bygherre": "",
-              "arkitekt": "",
-              "parkering": ""
-            },
-            "ekstraInfo": [],
-            "infoCirkelPlacering": "leftTop",
-            "faktaboksPlacering": "rightBottom",
-            "x": "50%",
-            "y": "50%"
           }
         ],
         "primaryColor": "#004050",
