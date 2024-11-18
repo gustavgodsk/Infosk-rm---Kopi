@@ -11,7 +11,7 @@ window.roots = [
           {
             "id": 1731580143381,
             "navn": "Sejlsportscentret",
-            "beskrivelse": "",
+            "beskrivelse": "beskrivelse",
             "billeder": {
               "primary": "3.jpg",
               "all": [
@@ -48,7 +48,16 @@ window.roots = [
               "arkitekt": "",
               "parkering": "sdfg"
             },
-            "ekstraInfo": [],
+            "ekstraInfo": [
+              {
+                "label": "Label",
+                "value": "ekstra info"
+              },
+              {
+                "label": "sefsefsefe",
+                "value": "ekstra info2"
+              }
+            ],
             "infoCirkelPlacering": "rightTop",
             "faktaboksPlacering": "leftBottom",
             "x": "26.5%",

@@ -365,7 +365,6 @@ html, body {
 .faktaboks-liste {
     list-style-type: none;
     padding: 20px;
-    padding-left: 30px;
     margin: 0;
     text-transform: capitalize;
 }
@@ -423,13 +422,14 @@ html, body {
 }
 
 
-.infoliste {
-    padding-left: 1rem;
-    margin: 0;
+ul.infoliste {
+
 }
 
 ul {
     list-style-type: none !important;
+    padding: 0;
+    margin: 0;
 }
 
 .luk-modal-knap {
