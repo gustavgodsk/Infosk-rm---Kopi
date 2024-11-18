@@ -51,7 +51,7 @@ html, body {
 
 .title-circle {
     background-color: var(--blackOpacity);
-    padding: 30px;
+    padding: 20px;
     aspect-ratio: 1;
     border-radius: 50%;
     display: flex;
@@ -629,3 +629,18 @@ ul {
     padding: 10px;
 }
 
+.menu2-title-h2 {
+    font-size: 1.5rem !important;
+}
+
+.menu2-title {
+    font-size: clamp(2rem, 3rem, 5vw) !important;
+
+}
+
+.title-circle {
+    width: fit-content;
+    min-width: 400px;
+    margin: 20px;
+    padding: 50px;
+}

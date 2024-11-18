@@ -1,11 +1,11 @@
 window.roots = [
   {
     "rootName": "Aarhus Ø",
-    "primaryColor": "#29bce0",
-    "primaryColorAlpha": "rgba(41, 188, 224, 0.4)",
+    "primaryColor": "#002050",
+    "primaryColorAlpha": "rgba(0, 32, 80, 0.4)",
     "areas": [
       {
-        "areaName": "Pier 4",
+        "areaName": "Hovedside",
         "oversigtskort": "Oversigtskort.jpg",
         "elementer": [
           {
@@ -140,22 +140,75 @@ window.roots = [
         ],
         "primaryColor": "#004050",
         "primaryColorAlpha": "rgba(0, 64, 80, 0.4)"
+      },
+      {
+        "areaName": "Historie",
+        "oversigtskort": "Havnen_5-09-125.jpg",
+        "elementer": [],
+        "primaryColor": "#29bce0",
+        "primaryColorAlpha": "rgba(41, 188, 224, 0.4)"
       }
     ],
     "backgroundImage": "baggrundbillede.jpg"
   },
   {
     "rootName": "Amtssygehuset",
-    "primaryColor": "#ce1c52",
-    "primaryColorAlpha": "rgba(206, 28, 82, 0.4)",
+    "primaryColor": "#8b0000",
+    "primaryColorAlpha": "rgba(139, 0, 0, 0.4)",
     "areas": [
       {
-        "areaName": "Oversigt",
-        "oversigtskort": "",
+        "areaName": "Hovedside",
+        "oversigtskort": "2016_LuftfotoGoogleview.jpg",
         "elementer": [],
         "primaryColor": "#004050",
         "primaryColorAlpha": "rgba(0, 64, 80, 0.4)"
       }
-    ]
+    ],
+    "backgroundImage": "2015_dronefoto_ASH (14).jpg"
+  },
+  {
+    "rootName": "Sydhavnskvarteret",
+    "primaryColor": "#004050",
+    "primaryColorAlpha": "rgba(0, 64, 80, 0.4)",
+    "areas": [
+      {
+        "areaName": "Hovedside",
+        "oversigtskort": "DJI_0657.JPG",
+        "elementer": [],
+        "primaryColor": "#004050",
+        "primaryColorAlpha": "rgba(0, 64, 80, 0.4)"
+      }
+    ],
+    "backgroundImage": "madmarked_kulbro-80.jpg"
+  },
+  {
+    "rootName": "Lisbjerg",
+    "primaryColor": "#204030",
+    "primaryColorAlpha": "rgba(32, 64, 48, 0.4)",
+    "areas": [
+      {
+        "areaName": "Hovedside",
+        "oversigtskort": "20230908_Lisbjerg_Etape 1_Grundkort-1.png",
+        "elementer": [],
+        "primaryColor": "#204030",
+        "primaryColorAlpha": "rgba(32, 64, 48, 0.4)"
+      }
+    ],
+    "backgroundImage": "Bakkehusene 2020.jpg"
+  },
+  {
+    "rootName": "Godsbanen",
+    "primaryColor": "#ff0000",
+    "primaryColorAlpha": "rgba(255, 0, 0, 0.4)",
+    "areas": [
+      {
+        "areaName": "Hovedside",
+        "oversigtskort": "484_310330.jpg",
+        "elementer": [],
+        "primaryColor": "#ff0000",
+        "primaryColorAlpha": "rgba(255, 0, 0, 0.4)"
+      }
+    ],
+    "backgroundImage": "Luftfoto.JPG"
   }
 ]
