@@ -128,6 +128,204 @@ window.roots = [
         "elementer": [],
         "primaryColor": "#29bce0",
         "primaryColorAlpha": "rgba(41, 188, 224, 0.4)"
+      },
+      {
+        "areaName": "Biodiversitet",
+        "oversigtskort": "Havnen_5-23-123.jpg",
+        "elementer": [
+          {
+            "id": 1732014613106,
+            "navn": "Domen",
+            "beskrivelse": "",
+            "billeder": {
+              "primary": "Havnen_5-17-130.jpg",
+              "all": [
+                "Havnen_5-17-130.jpg"
+              ],
+              "metadata": {
+                "Havnen_5-17-130.jpg": {
+                  "description": "awdawd",
+                  "author": "",
+                  "year": "2342"
+                }
+              }
+            },
+            "faktaboks": {
+              "igangsat": "",
+              "færdigt": "",
+              "boliger": "",
+              "erhvervsareal": "",
+              "typologi": "",
+              "etager": "",
+              "bygherre": "",
+              "arkitekt": "",
+              "parkering": ""
+            },
+            "ekstraInfo": [],
+            "infoCirkelPlacering": "leftTop",
+            "faktaboksPlacering": "rightBottom",
+            "x": "4.1%",
+            "y": "37.3%"
+          },
+          {
+            "id": 1732014773486,
+            "navn": "",
+            "beskrivelse": "",
+            "billeder": {
+              "primary": null,
+              "all": [],
+              "metadata": {}
+            },
+            "faktaboks": {
+              "igangsat": "",
+              "færdigt": "",
+              "boliger": "",
+              "erhvervsareal": "",
+              "typologi": "",
+              "etager": "",
+              "bygherre": "",
+              "arkitekt": "",
+              "parkering": ""
+            },
+            "ekstraInfo": [],
+            "infoCirkelPlacering": "leftTop",
+            "faktaboksPlacering": "rightBottom",
+            "x": "50%",
+            "y": "50%"
+          },
+          {
+            "id": 1732014773958,
+            "navn": "",
+            "beskrivelse": "",
+            "billeder": {
+              "primary": null,
+              "all": [],
+              "metadata": {}
+            },
+            "faktaboks": {
+              "igangsat": "",
+              "færdigt": "",
+              "boliger": "",
+              "erhvervsareal": "",
+              "typologi": "",
+              "etager": "",
+              "bygherre": "",
+              "arkitekt": "",
+              "parkering": ""
+            },
+            "ekstraInfo": [],
+            "infoCirkelPlacering": "leftTop",
+            "faktaboksPlacering": "rightBottom",
+            "x": "50%",
+            "y": "50%"
+          },
+          {
+            "id": 1732014774446,
+            "navn": "",
+            "beskrivelse": "",
+            "billeder": {
+              "primary": null,
+              "all": [],
+              "metadata": {}
+            },
+            "faktaboks": {
+              "igangsat": "",
+              "færdigt": "",
+              "boliger": "",
+              "erhvervsareal": "",
+              "typologi": "",
+              "etager": "",
+              "bygherre": "",
+              "arkitekt": "",
+              "parkering": ""
+            },
+            "ekstraInfo": [],
+            "infoCirkelPlacering": "leftTop",
+            "faktaboksPlacering": "rightBottom",
+            "x": "50%",
+            "y": "50%"
+          },
+          {
+            "id": 1732014774872,
+            "navn": "",
+            "beskrivelse": "",
+            "billeder": {
+              "primary": null,
+              "all": [],
+              "metadata": {}
+            },
+            "faktaboks": {
+              "igangsat": "",
+              "færdigt": "",
+              "boliger": "",
+              "erhvervsareal": "",
+              "typologi": "",
+              "etager": "",
+              "bygherre": "",
+              "arkitekt": "",
+              "parkering": ""
+            },
+            "ekstraInfo": [],
+            "infoCirkelPlacering": "leftTop",
+            "faktaboksPlacering": "rightBottom",
+            "x": "50%",
+            "y": "50%"
+          },
+          {
+            "id": 1732014775357,
+            "navn": "",
+            "beskrivelse": "",
+            "billeder": {
+              "primary": null,
+              "all": [],
+              "metadata": {}
+            },
+            "faktaboks": {
+              "igangsat": "",
+              "færdigt": "",
+              "boliger": "",
+              "erhvervsareal": "",
+              "typologi": "",
+              "etager": "",
+              "bygherre": "",
+              "arkitekt": "",
+              "parkering": ""
+            },
+            "ekstraInfo": [],
+            "infoCirkelPlacering": "leftTop",
+            "faktaboksPlacering": "rightBottom",
+            "x": "50%",
+            "y": "50%"
+          },
+          {
+            "id": 1732014776512,
+            "navn": "",
+            "beskrivelse": "",
+            "billeder": {
+              "primary": null,
+              "all": [],
+              "metadata": {}
+            },
+            "faktaboks": {
+              "igangsat": "",
+              "færdigt": "",
+              "boliger": "",
+              "erhvervsareal": "",
+              "typologi": "",
+              "etager": "",
+              "bygherre": "",
+              "arkitekt": "",
+              "parkering": ""
+            },
+            "ekstraInfo": [],
+            "infoCirkelPlacering": "leftTop",
+            "faktaboksPlacering": "rightBottom",
+            "x": "50%",
+            "y": "50%"
+          }
+        ],
+        "primaryColor": "#002050",
+        "primaryColorAlpha": "rgba(0, 32, 80, 0.4)"
       }
     ],
     "backgroundImage": "baggrundbillede.jpg"
