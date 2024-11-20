@@ -10,8 +10,6 @@
     <button id="fullscreen-toggle-open" class="fullscreen-toggle" onclick="toggleFullscreen()"></button>
     <button id="fullscreen-toggle-exit" class="fullscreen-toggle" onclick="toggleFullscreen()"></button>
 
-    <!-- <img src="./lib/static/aarhusoe-skyline-removebg.png" alt="" class="backgroundImage">
-    <img src="./lib/static/aarhusoe-skyline-removebg.png" alt="" class="backgroundImage skyline-removebg"> -->
 
     <button id="go-back-button" onclick="goBack()">
         <img src="lib/static/arrow.svg" alt="">
@@ -78,7 +76,7 @@
     <!-- kan ikke bruge script type=module pga sikkerhed, da import/export -->
     <!-- ikke fungerer uden live server.  -->
 
-    <!-- window.appData bruges for at undgå nødvendigheden af live server -->
+    <!-- window.roots bruges for at undgå nødvendigheden af live server (med global variable)-->
     <!-- (så html-filen virker lokalt på alle computere uden server) -->
        
 
