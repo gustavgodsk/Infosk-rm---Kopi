@@ -120,7 +120,8 @@ window.roots = [
           }
         ],
         "primaryColor": "#004050",
-        "primaryColorAlpha": "rgba(0, 64, 80, 0.4)"
+        "primaryColorAlpha": "rgba(0, 64, 80, 0.4)",
+        "showBuildingNumbers": false
       },
       {
         "areaName": "Historie",
