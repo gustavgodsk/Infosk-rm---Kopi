@@ -1254,14 +1254,21 @@ input[type="file"] {
     gap: 10px;
 }
 
+.titel-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.guide-links {
+    display: flex;
+    flex-direction: row;
+}
+
 .guide-link {
-    position: absolute;
-    top: 0;
-    right: 0;
     text-align: end;
     text-decoration: none;
     padding: 0px;
-    margin: 20px;
+    margin: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1446,4 +1453,12 @@ input[type="file"] {
 
 .ekstra-info-XD .remove-field:hover {
     background-color: #ff0000;
+}
+
+.split-label {
+    font-size: small;
+    margin-left: 10px;
+    background-color: #bebebe;
+    padding: 4px;
+    border-radius: 4px;
 }

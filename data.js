@@ -10,7 +10,7 @@ window.roots = [
         "elementer": [
           {
             "id": 1731580143381,
-            "navn": "Sejlsports&shy;centret",
+            "navn": "Sejlsports(split)centret",
             "beskrivelse": "beskrivelseawdawd awdawdawdwd ddddddddddddddddddddddddddddddddd",
             "billeder": {
               "primary": "3.jpg",
