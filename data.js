@@ -10,7 +10,7 @@ window.roots = [
         "elementer": [
           {
             "id": 1731580143381,
-            "navn": "Sejlsports(split)centret",
+            "navn": "hejmed(split)dig1234",
             "beskrivelse": "beskrivelseawdawd awdawdawdwd ddddddddddddddddddddddddddddddddd",
             "billeder": {
               "primary": "3.jpg",
@@ -165,8 +165,8 @@ window.roots = [
             "ekstraInfo": [],
             "infoCirkelPlacering": "leftTop",
             "faktaboksPlacering": "rightBottom",
-            "x": "4.1%",
-            "y": "37.3%"
+            "x": "75.0%",
+            "y": "69.0%"
           },
           {
             "id": 1732014773486,

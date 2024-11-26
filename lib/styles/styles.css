@@ -20,7 +20,7 @@ html, body {
     background-image: url("../static/aarhusoe-skyline.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     padding: 50px;
     box-sizing: border-box;
 }
@@ -166,11 +166,19 @@ html, body {
 
 }
 
-#oversigtskort {
-    height: 100%;
-    width: auto;
-    object-fit: contain;
+.oversigtskort-innercontainer {
+    position: relative;
     max-width: 60vw; /* Changed from 100% to 60vw */
+    height: auto;
+    max-height: 100vh;
+}
+
+#oversigtskort {
+    max-height: 100vh;
+    width: auto;
+    max-width: 60vw; /* Changed from 100% to 60vw */
+    position: relative;
+    object-fit: contain;
 
 }
 
